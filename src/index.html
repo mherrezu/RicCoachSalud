@@ -4,14 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/img/logo.png">
+  <title>RicCoachSalud</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css" rel="stylesheet" />
 </head>
-<body class="font-sans">
+<body class="font-raleway">
   <div>
     <div>
-        <header class="bg-white">
-            <div class="flex items-center justify-between  my-4 mx-8">
+        <header class="bg-white px-24 fixed w-full">
+            <div class="flex items-center justify-between p-4">
                 <div class="text-black w-1/2">
-                    <a href="/" class="">
+                    <a href="/">
                         <img src="/img/logo.png" alt="" class="h-20">
                     </a>
                 </div>
@@ -27,32 +30,313 @@
                 </div>
             </div>
         </header>
-        <main class="bg-gradient-to-b from-slate-700 to-slate-950 text-slate-100 px-28 py-12">
-            <section class="">
-                <div class="bg-slate-200 rounded p-2">
-                    <h2 class="text-slate-800 uppercase font-semibold">Sobre mi</h2>
-                </div>
-                <div class="flex flex-wrap">
-                    <div>
-                        <img src="/img/richi.jpeg" alt="" class="h-96 rounded-lg">
+        <main class="text-white">
+            <!-- START -->
+            <section class="bg-slate-950 px-32 pt-48 pb-16">
+                <div class="grid grid-cols-2 my-8">
+                    <div class="w-full">
+                        <p class=" text-2xl pb-8">Disfruta y cumple tus objetivos.</p>
+                        <p class="text-7xl py-1">Convierte</p>
+                        <p class="text-7xl py-1">tu vida en</p>
+                        <!-- <p class="text-7xl py-1">en</p> -->
+                        <p class="uppercase text-7xl font-semibold py-4">crecimiento</p>
+                        <p class=" text-2xl py-8">Da el paso hacia un cambio en tu cuerpo y mente.</p>
+                        <button class="bg-red-700 hover:bg-red-600 rounded-md p-4 text-xl uppercase">¿Cómo puedo ayudarte?</button>
                     </div>
                     <div>
-                        <p>Me llamo <span class="font-bold">Jorge</span> y soy un apasionado de la nutrición y el deporte.</p>
-                        <p>Me encanta ayudar a las personas a conseguir sus objetivos y mejorar su calidad de vida.</p>
-                        <p>Si quieres saber más sobre mi, puedes visitar mi <a href="#">Instagram</a> o <a href="#">Youtube</a></p>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trending-up" width="500" height="500" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M3 17l6 -6l4 4l8 -8" />
+                            <path d="M14 7l7 0l0 7" />
+                            </svg>
                     </div>
                 </div>
             </section>
-            <section>cambios fisicos</section>
-            <section>Programas</section>
-            <section>CTA unete</section>
-            <section>Cambios Hábitos</section>
-            <section>Dudas</section>
+            <!-- SOBRE MI -->
+            <section class="bg-white px-32 py-16">
+                <div class="flex bg-red-700 rounded-xl my-8 p-8">
+                    <img src="/img/richi.jpeg" alt="" class="rounded-xl h-96">
+                    <div class="px-8">
+                        <h2 class="font-semibold text-5xl pb-4">Ricardo Rosales Osuna</h2>
+                        <p class="text-xl text-justify py-1"> 
+                            Me apasiona el mundo del <span class="font-bold">deporte</span> y de la <span class="font-bold">nutrición</span>.
+                        </p>
+                        <p class="text-xl text-justify py-1">
+                            Quiero hacer ver al mundo que estar en forma y sano no es tan difícil.
+                        </p>
+                        <p class="text-xl text-justify py-1">
+                            Me gusta describirme como un chaval simple, deportista e inconformista.
+                        </p>
+                        <p class="text-xl text-justify py-1">
+                            Viví una situación que mucha gente tiene y no sabe cómo salir de ahí:
+                        </p>
+                        <ul class="text-xl text-justify py-1 px-8 list-disc">
+                            <li>Malos hábitos.</li>
+                            <li>“Falta de tiempo y motivación”.</li>
+                            <li>Afecciones emocionales.</li>
+                        </ul>
+                        <p class="text-xl text-justify py-1">
+                            ¿CÓMO SALÍ DE AHÍ? Te lo cuento en mi ebook.
+                        </p>
+                        <button class=" bg-slate-900 hover:bg-slate-800 rounded-md my-2 p-2 text-xl">E-BOOK GRATUITO</button>
+
+                    </div>
+                </div>
+            </section>
+            <!-- PROGRAMAS -->
+            <section class="bg-slate-950 px-32 py-16">
+                <div class="my-8">
+                    <h2 class="text-6xl font-semibold text-red-700 mb-8">Programas</h2>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex gap-2">
+                            <div class="bg-slate-50 rounded p-2">
+                                <img src="/img/gym.svg" alt="">
+                            </div>
+                            <div class="bg-slate-50 rounded p-2 flex-1">
+                                <p class="font-semibold uppercase text-slate-950 px-8">Entrenamiento Personal</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="bg-slate-50 rounded p-2">
+                                <img src="/img/nutri.svg" alt="">
+                            </div>
+                            <div class="bg-slate-50 rounded p-2 flex-1">
+                                <p class="font-semibold uppercase text-slate-950 px-8">nutrición</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-slate-900 border border-red-700 rounded p-8">
+                                <ul class="list-disc py-4 px-6">
+                                    <li>Valoración global.</li>
+                                    <li>Seguimiento semanal.</li>
+                                    <li>Mejora de capacidad física.</li>
+                                    <li>Mejora de habilidades.</li>
+                                    <li>Disfrutar y cumplir objetivos.</li></li>
+                                    <li>Sesiones enfocadas en tus objetivos específicos.</li>
+                                </ul>
+                                <p class="px-4">
+                                    Dirigida a personas que necesitan una planificación de entrenamiento adaptada
+                                    a su condiciones físicas y objetivos.
+                                </p>
+                                <div class="m-4">
+                                    <button class="bg-red-700 hover:bg-red-600 rounded-md p-2 text">Más información</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-slate-900 border border-red-700 rounded p-8">
+                                <ul class="list-disc py-4 px-6">
+                                    <li>Cuestionario inicial y valoración.</li>
+                                    <li>Cálculo de calorías necesarias personalizadas.</li>
+                                    <li>Repartición de macronutrientes.</li>
+                                    <li>Reeducación nutricional.</li>
+                                    <li>Menú prototipo mensual y seguimiento semanal.</li>
+                                    <li>Diario de comidas.</li>
+                                </ul>
+                                <p class="px-4">
+                                    Dirigida a personas que necesitan una planificación nutricional 
+                                    enfocada en sus objetivos y necesidades.
+                                </p>
+                                <div class="m-4">
+                                    <button class="bg-red-700 hover:bg-red-600 rounded-md p-2 text">Más información</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="bg-slate-50 rounded p-2">
+                                <img src="/img/readap.svg" alt="">
+                            </div>
+                            <div class="bg-slate-50 rounded p-2 flex-1">
+                                <p class="font-semibold uppercase text-slate-950 px-8">Readaptación Funcional</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="bg-slate-50 rounded flex p-2">
+                                <img src="/img/online.svg" alt="">
+                            </div>
+                            <div class="bg-slate-50 rounded p-2 flex-1">
+                                <p class="font-semibold uppercase text-slate-950">Entrenamiento Online</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-slate-900 border border-red-700 rounded p-8">
+                                <ul class="list-disc py-4 px-6">
+                                    <li>Valoración global.</li>
+                                    <li>Entrenamiento enfocado en la recuperación de la lesión específica.</li>
+                                    <li>Seguimiento semanal.</li>
+                                    <li>Reeducación del movimiento.</li>
+                                    <li>Pautas de recomendación.</li></li>
+                                </ul>
+                                <p class="px-4">
+                                    Dirigida a personas que que padecen de una lesión o dolencia, con el objetivo es reeducar 
+                                    y recuperar la lesión lo más pronto posible.
+                                </p>
+                                <div class="m-4">
+                                    <button class="bg-red-700 hover:bg-red-600 rounded-md p-2 text">Más información</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-slate-900 border border-red-700 rounded p-8">
+                                <ul class="list-disc py-4 px-6">
+                                    <li>Valoración global.</li>
+                                    <li>Seguimiento semanal.</li>
+                                    <li>Mejora de capacidad física.</li>
+                                    <li>Mejora de habilidades.</li>
+                                    <li>Disfrutar y cumplir objetivos.</li></li>
+                                    <li>Sesiones enfocadas en tus objetivos específicos.</li>
+                                </ul>
+                                <p class="px-4">
+                                    Dirigida a personas que necesitan una planificación de entrenamiento adaptada
+                                    a su condiciones físicas y objetivos.
+                                </p>
+                                <div class="m-4">
+                                    <button class="bg-red-700 hover:bg-red-600 rounded-md p-2 text">Más información</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid grid-col gap-4">
+                            <div class="flex gap-2">
+                                <div class="bg-slate-50 rounded p-2">
+                                    <img src="/img/rocket.svg" alt="">
+                                </div>
+                                <div class="bg-slate-50 rounded flex-1 p-2">
+                                    <p class="font-semibold uppercase text-slate-950">Pack Completo</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="bg-slate-900 border border-red-700 rounded p-8">
+                                    <ul class="list-disc py-4 px-6">
+                                        <li>Valoración global.</li>
+                                        <li>Seguimiento semanal.</li>
+                                        <li>Mejora de capacidad física.</li>
+                                        <li>Mejora de habilidades.</li>
+                                        <li>Disfrutar y cumplir objetivos.</li></li>
+                                        <li>Sesiones enfocadas en tus objetivos específicos.</li>
+                                    </ul>
+                                    <p class="px-4">
+                                        Dirigida a personas que necesitan una planificación de entrenamiento adaptada
+                                        a su condiciones físicas y objetivos.
+                                    </p>
+                                    <div class="m-4">
+                                        <button class="bg-red-700 hover:bg-red-600 rounded-md p-2 text">Más información</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- UNETE & HÁBITOS -->
+            <section  class="bg-white px-32 py-16">
+                <div class="flex flex-col items-center gap-2 my-8">
+                    <div>
+                        <h2 class="text-5xl font-semibold uppercase text-slate-950 mb-8">Crea tus hábitos, crea tus resultados</h2>
+                    </div>
+                    <div class="grid grid-cols-3 gap-4 text-slate-950">
+                        <div class="flex flex-col gap-2 items-center rounded-2xl border border-slate-950 p-8">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-report-analytics" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+                                <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+                                <path d="M9 17v-5" />
+                                <path d="M12 17v-1" />
+                                <path d="M15 17v-3" />
+                              </svg>
+                            <p class="uppercase font-semibold text-center">Entrenamientos<br> con resultados</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-2 rounded-2xl border border-slate-950 p-8">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apple" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M12 14m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                                <path d="M12 11v-6a2 2 0 0 1 2 -2h2v1a2 2 0 0 1 -2 2h-2" />
+                                <path d="M10 10.5c1.333 .667 2.667 .667 4 0" />
+                              </svg>
+                            <p class="uppercase font-semibold text-center">nutrición<br>adaptada</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-2 rounded-2xl border border-slate-950 p-8">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-stats" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+                                <path d="M18 14v4h4" />
+                                <path d="M18 18m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                                <path d="M15 3v4" />
+                                <path d="M7 3v4" />
+                                <path d="M3 11h16" />
+                              </svg>
+                            <p class="uppercase font-semibold text-center">Seguimiento<br>semanal</p>
+                        </div>
+                    </div>
+                    <div class="pt-8">
+                        <button class="bg-red-700 hover:bg-red-600 rounded-md p-4 text-xl uppercase">¡Es el momento!</button>
+                    </div>
+                </div>
+            </section>
+            <!-- CAMBIOS FÍSICOS -->
+            <section class="bg-red-700 px-32 py-16">
+                <div class="my-8">
+                    <h2 class="text-6xl text-white uppercase text-center mb-8">Si otros han podido, tú también</h2>
+                </div>
+                <!-- This is an example component -->
+                <div class="max-w-2xl mx-auto">
+                    <div id="default-carousel" class="relative" data-carousel="static">
+                        <!-- Carousel wrapper -->
+                        <div class="overflow-hidden relative h-96 rounded-lg">
+                            <!-- Item 1 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="/img/carousel-1.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="./carousel-2.jpeg"  class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="/img/carousel-3.jpeg"  class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                            </div>
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="/img/carousel-4.jpeg"  class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                            </div>
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="/img/carousel-5.jpeg"  class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                            </div>
+                        </div>
+                        <!-- Slider indicators -->
+                        <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="2"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="2"></button>
+                        </div>
+                        <!-- Slider controls -->
+                        <button type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
+                            <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                                <span class="hidden">Previous</span>
+                            </span>
+                        </button>
+                        <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
+                            <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                                <span class="hidden">Next</span>
+                            </span>
+                        </button>
+                    </div>
+                    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+                </div>
+            </section>
+            <!-- DUDAS -->
+            <section >Dudas</section>
         </main>
         <footer class="bg-white py-6 px-28">
             <div class="flex items-center justify-between text-black">
                 <div class="w-1/2">
                     <p class="text-lg">© 2023 RicCoachSalud</p>
+                    <p  class="text-xs italic">Powered by <span>María Herrezuelo</span></p>
+                </div>
+                <div class="w-20">
+                    <img src="/img/logo.png" alt="">
                 </div>
                 <div class="w-1/2">
                     <ul class="flex gap-x-2 justify-end">
@@ -62,9 +346,6 @@
                         <li><a href="#"><img class="h-8" src="/img/facebook.svg" alt=""></a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="flex justify-center p-2">
-                <p  class="text-xs italic">Powered by <span>María Herrezuelo</span></p>
             </div>
         </footer>
     </div>
