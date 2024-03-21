@@ -11,7 +11,7 @@ Work in progress:
 
 # :computer: Technologies
 
-This Project was made with:
+Until now, this project is created with:
 
 * HTML
 * [TailwindCSS](https://tailwindcss.com/)
